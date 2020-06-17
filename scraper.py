@@ -72,5 +72,3 @@ while url:
 
 with open("opinions_json/"+product_id+".json", "w", encoding="UTF-8") as fp:
     json.dump(all_opinions, fp, indent=4, ensure_ascii=False)
-
-# pprint.pprint(all_opinions)
